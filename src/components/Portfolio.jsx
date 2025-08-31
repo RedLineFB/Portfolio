@@ -123,7 +123,7 @@ export default function Portfolio() {
               { icon: IoLogoVercel, label: 'Next.js 14' },
               { icon: FaReact, label: 'React 18' },
               { icon: SiTailwindcss, label: 'Tailwind CSS' },
-              { icon: FaCss3Alt, label: 'CSS Modules' },
+              
             ]}
             
             href="https://github.com/RedLineFB/Porfolio-NextJS"
@@ -160,7 +160,16 @@ export default function Portfolio() {
             href="https://rpropiedades.netlify.app/"
             links={[{ label: 'Ver proyecto', href: 'https://rpropiedades.netlify.app/' }]}
           />
-
+           <ProjectCard
+            title="OSINT: PhoneOSINT"
+            desc="Script de OSINT para geolocalizar un número de teléfono."
+            tech={[{ icon: FaPython, label: 'Python 3' }]}
+            image={PhoneOSINT}
+            links={[
+              { label: 'PhoneOSINT (GitHub)', href: 'https://github.com/RedLineFB/PhoneOSINT' }
+,
+            ]}
+          />
           <ProjectCard
             title="OSINT: Geo-IP"
             desc="Script para geolocalizar una IP."
@@ -168,17 +177,6 @@ export default function Portfolio() {
             image={GeoIp}
             links={[
               { label: 'Geo-IP (GitHub)', href: 'https://github.com/RedLineFB/Geo-IP' }
-,
-            ]}
-          />
-
-          <ProjectCard
-            title="OSINT: PhoneOSINT"
-            desc="Script de OSINT para geolocalizar un número de teléfono."
-            tech={[{ icon: FaPython, label: 'Python 3' }]}
-            image={GeoIp}
-            links={[
-              { label: 'PhoneOSINT (GitHub)', href: 'https://github.com/RedLineFB/PhoneOSINT' }
 ,
             ]}
           />
