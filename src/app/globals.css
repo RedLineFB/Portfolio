@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.estilo {
+    color: #000000;
+}
+
+.separator {
+    border-top: 3px solid #ccc; /* Estilo de la línea separadora */
+    margin-top: 150px; /* Espacio superior para separar visualmente las secciones */
+}
