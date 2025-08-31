@@ -128,7 +128,7 @@ export default function Portfolio() {
             
             href="https://github.com/RedLineFB/Porfolio-NextJS"
             links={[
-              { label: 'Portfolio(GitHub)', href: 'https://github.com/RedLineFB/Porfolio-NextJS' },
+              { label: 'Portfolio(GitHub)', href: 'https://github.com/RedLineFB/Portfolio' },
             ]}
           />
 
