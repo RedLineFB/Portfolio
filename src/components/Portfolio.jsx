@@ -9,6 +9,7 @@ import { IoLogoVercel, IoLogoJavascript } from 'react-icons/io5'
 import { FaReact, FaNode, FaCss3Alt, FaHtml5, FaPython } from 'react-icons/fa'
 import { SiTailwindcss } from 'react-icons/si'
 import { TbBrandSocketIo } from 'react-icons/tb'
+import { SiGooglesheets } from "react-icons/si";
 
 // Images
 import Signore from '@/images/Signore.png'
@@ -16,6 +17,7 @@ import PVC from '@/images/PVC.PNG'
 import TrabajofinalPP2 from '@/images/Trabajo-final-PP2.png'
 import GeoIp from '@/images/Geo-IP.png'
 import PhoneOSINT from '@/images/PhoneOSINT.png'
+import Sheets from '@/images/GeneradordepresupuestosGoogleSheets.jpeg'
 
 function TechPill({ icon: Icon, label }) {
   return (
@@ -82,7 +84,17 @@ export default function Portfolio() {
 
         {/* Proyectos */}
         <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
-          
+           <ProjectCard
+            title="Generador de presupuestos en Google Sheets "
+            desc="Google Sheets desarrollado para venta de cielorraso"
+            tech={[
+              { icon: SiGooglesheets, label: 'Google Sheets' },   
+              
+            ]}
+            image={Sheets}
+            
+          />
+
            <ProjectCard
             title="Sitio de publicidad de Machimbre de PVC"
             desc="Sitio web que desarrollé para publicitar PVC de un negocio."
