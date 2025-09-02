@@ -108,6 +108,10 @@ export default function Portfolio() {
               
             ]}
             image={Sheets}
+
+            links={[
+              { label: 'Ver video en LinkedIn', href: 'https://www.linkedin.com/feed/update/urn:li:activity:7252044192774819840/' },
+            ]}
             
           />
 
