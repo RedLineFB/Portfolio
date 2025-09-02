@@ -84,17 +84,7 @@ export default function Portfolio() {
 
         {/* Proyectos */}
         <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
-           <ProjectCard
-            title="Generador de presupuestos en Google Sheets "
-            desc="Google Sheets desarrollado para venta de cielorraso"
-            tech={[
-              { icon: SiGooglesheets, label: 'Google Sheets' },   
-              
-            ]}
-            image={Sheets}
-            
-          />
-
+           
            <ProjectCard
             title="Sitio de publicidad de Machimbre de PVC"
             desc="Sitio web que desarrollé para publicitar PVC de un negocio."
@@ -109,6 +99,16 @@ export default function Portfolio() {
             links={[
               { label: 'Sitio web', href: 'https://elyaguarete-opal.vercel.app/' },
             ]}
+          />
+          <ProjectCard
+            title="Generador de presupuestos en Google Sheets "
+            desc="Google Sheets desarrollado para venta de cielorraso"
+            tech={[
+              { icon: SiGooglesheets, label: 'Google Sheets' },   
+              
+            ]}
+            image={Sheets}
+            
           />
 
           <ProjectCard
